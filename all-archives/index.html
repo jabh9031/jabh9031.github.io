@@ -15,7 +15,7 @@
             <link rel="alternate" type="application/atom+xml" title="RSS" href="/atom.xml">
         
     
-    <script type="application/ld+json">{"@context":"http://schema.org","@type":"Website","@id":"https://jabh9031.github.io","author":{"@type":"Person","name":"John Aren","sameAs":["https://github.com/jabh9031","https://twitter.com/jabh9031"]},"name":"John's Blog","description":"","url":"https://jabh9031.github.io"}</script>
+    <script type="application/ld+json">{"@context":"http://schema.org","@type":"Website","@id":"https://jabh9031.github.io","author":{"@type":"Person","name":"John Aren","sameAs":["https://github.com/jabh9031","https://twitter.com/jabh9031"],"image":"profile_img.jpg"},"name":"John's Blog","description":"","url":"https://jabh9031.github.io"}</script>
     <meta property="og:type" content="blog">
 <meta property="og:title" content="all-archives">
 <meta property="og:url" content="https://jabh9031.github.io/all-archives/index.html">
@@ -25,10 +25,13 @@
 <meta property="article:modified_time" content="2020-04-02T14:26:08.243Z">
 <meta property="article:author" content="John Aren">
 <meta name="twitter:card" content="summary">
+<meta name="twitter:creator" content="@jabh9031">
     
     
         
     
+    
+        <meta property="og:image" content="https://jabh9031.github.io/assets/images/profile_img.jpg"/>
     
     
     
@@ -51,6 +54,10 @@
 
 
     
+        
+            
+        
+    
 
 <header id="header" data-behavior="1">
     <i id="btn-open-sidebar" class="fa fa-lg fa-bars"></i>
@@ -72,6 +79,8 @@
             >
         
         
+            <img class="header-picture" src="/assets/images/profile_img.jpg" alt="著者の絵"/>
+        
         </a>
     
 </header>
@@ -79,8 +88,26 @@
             <!-- Define author's picture -->
 
 
+
+        
+    
+
 <nav id="sidebar" data-behavior="1">
     <div class="sidebar-container">
+        
+            <div class="sidebar-profile">
+                <a
+                    href="/#about"
+                    aria-label="著者についてもっと読む"
+                >
+                    <img class="sidebar-profile-picture" src="/assets/images/profile_img.jpg" alt="著者の絵"/>
+                </a>
+                <h4 class="sidebar-profile-name">John Aren</h4>
+                
+                    <h5 class="sidebar-profile-bio"><p>外資SIerで3年勤務後、AWSに転職。IT技術全般と英語を勉強するのが趣味。</p>
+</h5>
+                
+            </div>
         
         
             <ul class="sidebar-buttons">
@@ -263,7 +290,7 @@
                 
             
             <li class="archive-post archive-day" data-date="20200403">
-                <a class="archive-post-title" href="/2020/04/03/hello-world/">初投稿</a>
+                <a class="archive-post-title" href="/2020/04/03/hatsutoko/">初投稿</a>
                 <span class="archive-post-date"> - 2020/04/03</span>
             </li>
         
@@ -282,11 +309,17 @@
         
 
 
+    
+        
+    
+
 <div id="about">
     <div id="about-card">
         <div id="about-btn-close">
             <i class="fa fa-times"></i>
         </div>
+        
+            <img id="about-card-picture" src="/assets/images/profile_img.jpg" alt="著者の絵"/>
         
             <h4 id="about-card-name">John Aren</h4>
         
@@ -301,6 +334,12 @@
 
             </div>
         
+        
+            <div id="about-card-location">
+                <i class="fa fa-map-marker-alt"></i>
+                <br/>
+                Tokyo, Japan
+            </div>
         
     </div>
 </div>
