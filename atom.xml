@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>John&#39;s Blog</title>
+  
+  
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="https://jabh9031.github.io/"/>
+  <updated>2020-04-02T15:11:40.105Z</updated>
+  <id>https://jabh9031.github.io/</id>
+  
+  <author>
+    <name>John Aren</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>初投稿</title>
+    <link href="https://jabh9031.github.io/2020/04/03/hello-world/"/>
+    <id>https://jabh9031.github.io/2020/04/03/hello-world/</id>
+    <published>2020-04-02T15:11:40.104Z</published>
+    <updated>2020-04-02T15:11:40.105Z</updated>
+    
+    <content type="html"><![CDATA[<p>はじめまして、ジョンです。AWSのTipsとエンジニアの英語学習方法について書いて行こうかなって思います。</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;はじめまして、ジョンです。AWSのTipsとエンジニアの英語学習方法について書いて行こうかなって思います。&lt;/p&gt;
+
+      
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+</feed>
